@@ -1,0 +1,25 @@
+<%- include('partials/header') %>
+<%- include('partials/adminPanelHeader') %>
+
+<table style="margin: 2%;">
+  
+  <tr>
+    <th>Öğrenci Numarası</th>
+    <th>İsim</th>
+    <th>Soyisim</th>
+    <th>Bölüm</th>
+  </tr>
+
+  <% startingContent.forEach(element => {  %>
+<tr>
+    <td> <%=element.username %>  </td>
+    <td> <%=element.firstName %>  </td>
+    <td>  <%=element.lastName %>   </td>
+    <td>  <%=element.departmant %>   </td>
+</tr>
+
+<%});   %>   
+
+</table>
+
+<%- include('partials/footer') %>

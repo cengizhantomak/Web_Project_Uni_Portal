@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <title>GAZOZ ÜNİVERSİTESİ</title>
+  </head>
+
+  <body style="background-color: #87cefa" class="font-monospace">
+    <nav class="bg-warning">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/GazozUniversitesi/index">
+              <b
+                >GAZOZ <br />
+                ÜNİVERSİTESİ</b
+              >
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Öğrenci</a
+                  >
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdown"
+                    style="background-color: #8fbc8f"
+                  >
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="/GazozUniversitesi/Ogrenci/Ogrenci_Isleri"
+                        >Öğrenci İşleri Dairesi</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="/GazozUniversitesi/Ogrenci/Akademik_Takvim"
+                        >Akademik Takvim</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="/GazozUniversitesi/Ogrenci/Degisim_Programlari"
+                        >Değişim Programları</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="/GazozUniversitesi/Ogrenci/SKS"
+                        >Sağlık Kültür ve Spor Dairesi</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="/GazozUniversitesi/Ogrenci/Uluslararasi_Ofis"
+                        >Uluslararası Ofis</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Akademik</a
+                  >
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdown"
+                    style="background-color: #8fbc8f"
+                  >
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="/GazozUniversitesi/Akademik/Fakulteler"
+                        >Fakülteler</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="/GazozUniversitesi/Akademik/YO"
+                        >Yüksekokullar</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="/GazozUniversitesi/Akademik/MYO"
+                        >Meslek Yüksekokulları</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="/GazozUniversitesi/Akademik/Enstituler"
+                        >Enstitüler</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="/GazozUniversitesi/Akademik/UAM"
+                        >Uygulama ve Araştırma Merkezleri</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Üniversite
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdown"
+                    style="background-color: #8fbc8f"
+                  >
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="/GazozUniversitesi/Universite/Rektorluk"
+                        >Rektörlük</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="/GazozUniversitesi/Universite/Senato"
+                        >Senato</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="/GazozUniversitesi/Universite/Misyon_Vizyon_ve_Temel_Degerlerimiz"
+                        >Misyon Vizyon ve Temel Değerlerimiz</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Kampüste Hayat</a
+                  >
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdown"
+                    style="background-color: #8fbc8f"
+                  >
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="/GazozUniversitesi/Kampuste_Hayat/Yurtlar"
+                        >Yurtlar</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="/GazozUniversitesi/Kampuste_Hayat/Kutuphane"
+                        >Kütüphane</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="/GazozUniversitesi/Kampuste_Hayat/Ogrenci_Kulupleri"
+                        >Öğrenci Kulüpleri</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="/GazozUniversitesi/Kampuste_Hayat/Kariyer_Ofisi"
+                        >Kariyer Ofisi</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="/GazozUniversitesi/Kampuste_Hayat/Spor_Faaliyetleri"
+                        >Spor Faaliyetleri</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <a
+                class="btn btn-outline-dark btn-success text-warning"
+                href="/GazozUniversitesi/Aksis"
+                target="_blank"
+                role="button"
+              >
+                <h2>AKSİS</h2>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div
+          id="carouselExampleDark"
+          class="carousel slide carousel-dark"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="Carousel/1/index">
+                <img
+                  src="https://cdn.istanbulc.edu.tr/FileHandler.ashx?f=_RNvMBWNFUyYVc7rZGaf2g&r=istanbul-universitesi-cerrahpasa-bahar-festivali22-basliyor-5700420071004900580042003700550044005300500039007900700046006200610041004F003200370077003200"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </a>
+
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="carousel-item">
+              <a href="Carousel/2/index">
+                <img
+                  src="https://cdn.istanbulc.edu.tr/FileHandler.ashx?f=j-lyel4jvUmYRyRAvJwI8g&r=veteriner-fakultesi-23-uluslararasi-veteriner-hekimligi-ogrencileri-bilimsel-ara-74004100500066007500510067007900320061006A0039007900700046006200610041004F003200370077003200"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </a>
+
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="carousel-item">
+              <a href="Carousel/3/index">
+                <img
+                  src="https://cdn.istanbulc.edu.tr/FileHandler.ashx?f=HTD-7vMaXEqxf5zpbJKKeA&r=2021-2022-egitim-ogretim-yili-saglikli-yerleske-kilavuzu-7300690070006300570035004100530034004300330039007900700046006200610041004F003200370077003200"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </a>
+
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-4" style="background-color: #a52a2a">
+      <h1 class="text-center mb-4 text-white">ULAŞTIRMA YÜKSEKOKULU</h1>
+      <nav class="nav flex-column flex-lg-row">
+        <a class="flex-sm-fill text-sm-center text-white" href="#">Lojistik</a>
+        <a class="flex-sm-fill text-sm-center text-white" href="#"
+          >Kabin Hizmetleri</a
+        >
+        <a class="flex-sm-fill text-sm-center text-white" href="#"
+          >Ulaştırma ve Trafik Hizmetleri</a
+        >
+      </nav>
+    </div>
+
+    <div class="container my-5">
+      <div class="row border">
+        <div class="col-xs-12 col-lg-8 bg-warning">
+          <h3>Etkinlikler</h3>
+          <hr />
+          <div class="row bg-warning p-2">
+            <article class="col-xs-12 col-lg-6 py-2">
+              <a
+                href="/GazozUniversitesi/Etkinlikler/Kariyer_Senligi_22_Basliyor"
+                style="color: black; text-decoration: none"
+              >
+                <div class="row">
+                  <div class="col-4">
+                    <img
+                      src="https://cdn.istanbulc.edu.tr/FileHandler.ashx?f=gcS4sdixwk2npmQzfbGAzw&r=kariyer-senligi22-basliyor-5900450057004E00680049007A00350038005700330039007900700046006200610041004F003200370077003200"
+                      width="125"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-8">
+                    <span class="small ml-1">11-13 Mayıs 2022</span>
+                    <h6 class="mt-2">
+                      <strong>Kariyer Şenliği'22 Başlıyor</strong>
+                    </h6>
+                  </div>
+                </div>
+              </a>
+            </article>
+            <article class="col-xs-12 col-lg-6 py-2">
+              <a
+                href="/GazozUniversitesi/Etkinlikler/Gazoz_Universitesi_Bahar_Festivali_22_Basliyor"
+                style="color: black; text-decoration: none"
+              >
+                <div class="row">
+                  <div class="col-4">
+                    <img
+                      src="https://cdn.istanbulc.edu.tr/FileHandler.ashx?f=LCPZFkxxikupi1R8ocei3g&r=istanbul-universitesi-cerrahpasa-bahar-festivali22-basliyor-6C0070002D004900380046007A00410045004400370039007900700046006200610041004F003200370077003200"
+                      width="125"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-8">
+                    <span class="small ml-1">11-13 Mayıs 2022</span>
+                    <h6 class="mt-2">
+                      <strong
+                        >GAZOZ Üniversitesi "Bahar Festivali'22"
+                        Başlıyor</strong
+                      >
+                    </h6>
+                  </div>
+                </div>
+              </a>
+            </article>
+            <article class="col-xs-12 col-lg-6 py-2">
+              <a
+                href="/GazozUniversitesi/Etkinlikler/Dis_Hekimligi_Fakulteleri_Hemsirelik_Haftasi_Programi"
+                style="color: black; text-decoration: none"
+              >
+                <div class="row">
+                  <div class="col-4">
+                    <img
+                      src="https://cdn.istanbulc.edu.tr/FileHandler.ashx?f=NuL3c7icsk6VHlZl7CBXWg&r=dis-hekimligi-fakulteleri-hemsirelik-haftasi-programi-49007A0069004F004C005F0039006900410044007A0039007900700046006200610041004F003200370077003200"
+                      width="125"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-8">
+                    <span class="small ml-1">9 Mayıs 2022</span>
+                    <h6 class="mt-2">
+                      <strong
+                        >Diş Hekimliği Fakülteleri Hemşirelik Haftası
+                        Programı</strong
+                      >
+                    </h6>
+                  </div>
+                </div>
+              </a>
+            </article>
+            <article class="col-xs-12 col-lg-6 py-2">
+              <a
+                href="/GazozUniversitesi/Etkinlikler/18_Gazoz_Plastik_Cerrahi_Gunleri"
+                style="color: black; text-decoration: none"
+              >
+                <div class="row">
+                  <div class="col-4">
+                    <img
+                      src="https://cdn.istanbulc.edu.tr/FileHandler.ashx?f=BCe7lTww0km0ojs_VIQ4BA&r=18-cerrahpasa-plastik-cerrahi-gunleri-4600580047002D00340052005700510035005600540039007900700046006200610041004F003200370077003200"
+                      width="125"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-8">
+                    <span class="small ml-1">4 Haziran 2022</span>
+                    <h6 class="mt-2">
+                      <strong>18. Gazoz Plastik Cerrahi Günleri</strong>
+                    </h6>
+                  </div>
+                </div>
+              </a>
+            </article>
+            <article class="col-xs-12 col-lg-6 py-2">
+              <a
+                href="/GazozUniversitesi/Etkinlikler/VII_Gazoz_Hipofiz_Sempozyumu"
+                style="color: black; text-decoration: none"
+              >
+                <div class="row">
+                  <div class="col-4">
+                    <img
+                      src="https://cdn.istanbulc.edu.tr/FileHandler.ashx?f=QQPXuJGCbEOQaq69S1Pt8Q&r=vii-istanbul-hipofiz-sempozyumu-7700670037004100700035004800530057004700540039007900700046006200610041004F003200370077003200"
+                      width="125"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-8">
+                    <span class="small ml-1">15-16 Nisan 2022</span>
+                    <h6 class="mt-2">
+                      <strong>VII. Gazoz Hipofiz Sempozyumu</strong>
+                    </h6>
+                  </div>
+                </div>
+              </a>
+            </article>
+            <article class="col-xs-12 col-lg-6 py-2">
+              <a
+                href="/GazozUniversitesi/Etkinlikler/IWA_DIPCON_2022_4th_Regional_Conference_on_Diffuse_Pollution_Eutrophication"
+                style="color: black; text-decoration: none"
+              >
+                <div class="row">
+                  <div class="col-4">
+                    <img
+                      src="https://cdn.istanbulc.edu.tr/FileHandler.ashx?f=piEv7VuM6U-H-QKTdx2MEw&r=iwa-dipcon-2022-4th-regional-conference-on-diffuse-pollution-eutrophication-4E002D004F0043004100430056004A0068006D00370039007900700046006200610041004F003200370077003200"
+                      width="125"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-8">
+                    <span class="small ml-1">24-28 Elim 2022</span>
+                    <h6 class="mt-2">
+                      <strong
+                        >IWA DIPCON 2022 4th Regional Conference on Diffuse
+                        Pollution & Eutrophication</strong
+                      >
+                    </h6>
+                  </div>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+        <div class="col-xs-12 col-lg-4" style="background-color: #d3d3d3">
+          <h3>Duyurular</h3>
+          <hr />
+          <article class="row p-2">
+            <a
+              href="/GazozUniversitesi/Duyurular/Ramazan_Ayi_Boyunca_10841_Ogrencimiz_Ucretsiz_iftar_Yemeginden_Faydalandi"
+              style="color: black; text-decoration: none"
+            >
+              <div class="row">
+                <div class="col-4 py-2">
+                  <h4 class="text-center">
+                    <strong>29<br />Nisan</strong>
+                  </h4>
+                </div>
+                <div class="col-8 py-2">
+                  <span class="small ml-1"
+                    >Ramazan Ayı Boyunca 10.841 Öğrencimiz Ücretsiz İftar
+                    Yemeğinden Faydalandı</span
+                  >
+                </div>
+              </div>
+            </a>
+
+            <a
+              href="/GazozUniversitesi/Duyurular/2022_YOK_Ustun_Basari_Odulleri_Basvurulari_Basladi"
+              style="color: black; text-decoration: none"
+            >
+              <div class="row">
+                <div class="col-4 py-2">
+                  <h4 class="text-center">
+                    <strong>25<br />Nisan</strong>
+                  </h4>
+                </div>
+                <div class="col-8 py-2">
+                  <span class="small ml-1"
+                    >2022 YÖK Üstün Başarı Ödülleri Başvuruları Başladı</span
+                  >
+                </div>
+              </div>
+            </a>
+
+            <a
+              href="/GazozUniversitesi/Duyurular/BiDEB_2218_Yurt _ici_Doktora_Sonrasi_Arastirma_Burs_Programi_2022_Yili_1_Donem_Cagrisi_Acildi"
+              style="color: black; text-decoration: none"
+            >
+              <div class="row">
+                <div class="col-4 py-2">
+                  <h4 class="text-center">
+                    <strong>13<br />Nisan</strong>
+                  </h4>
+                </div>
+                <div class="col-8 py-2">
+                  <span class="small ml-1"
+                    >BİDEB 2218 Yurt İçi Doktora Sonrası Araştırma Burs Programı
+                    2022 Yılı 1. Dönem Çağrısı Açıldı</span
+                  >
+                </div>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <div class="row">
+        <h3>Haberler</h3>
+        <div class="col-xs-12 col-lg-4 mb-2">
+          <a
+            href="/GazozUniversitesi/Haberler/Universitemiz_2021_Yilinda_En_Fazla_Patent_Basvurusu_Yayimlanan_ve_En_Fazla_Patent_Tescili_Yapilan_Universiteler_Siralamasinda_Zirvede"
+            style="color: black; text-decoration: none"
+          >
+            <img
+              src="https://cdn.istanbulc.edu.tr/FileHandler.ashx?f=layd7810Gk6I5Dl51DG1sQ&r=universitemiz-2021-yilinda-en-fazla-patent-basvurusu-yayimlanan-ve-en-fazla-pate-47006D00580041004A00460077005F0064005900540039007900700046006200610041004F003200370077003200"
+              height="200px"
+              alt=""
+            />
+
+            <h6 class="mt-2">
+              Üniversitemiz 2021 Yılında En Fazla Patent Başvurusu Yayımlanan ve
+              En Fazla Patent Tescili Yapılan Üniversiteler Sıralamasında
+              Zirvede
+            </h6>
+          </a>
+        </div>
+        <div class="col-xs-12 col-lg-4 mb-2">
+          <a
+            href="/GazozUniversitesi/Haberler/Patentler_Nasil_Ticarilestirilebilir_iyi_Uygulama_Ornekleri_Paneli_Universitemiz_Ev_Sahipliginde_Gerceklesti"
+            style="color: black; text-decoration: none"
+          >
+            <img
+              src="https://cdn.istanbulc.edu.tr/FileHandler.ashx?f=noecYZN7kUyumoX1bXoUmw&r=patentler-nasil-ticarilestirilebilir-iyi-uygulama-ornekleri-paneli-universitemiz-4C00540070006D006A002D003700710072007000480039007900700046006200610041004F003200370077003200"
+              height="200px"
+              alt=""
+            />
+            <h6 class="mt-2">
+              "Patentler Nasıl Tescilleştirilebilir? İyi Uygulama Örnekleri"
+              Paneli Üniversitemiz Ev Sahipliğinde Gerçekleşti
+            </h6>
+          </a>
+        </div>
+        <div class="col-xs-12 col-lg-4 mb-2">
+          <a
+            href="/GazozUniversitesi/Haberler/Veteriner_Fakultesi_23_Uluslararasi_Veteriner_Hekimligi_Ogrencileri_Bilimsel_Arastirma_Kongresi_Gerceklestirildi"
+            style="color: black; text-decoration: none"
+          >
+            <img
+              src="https://cdn.istanbulc.edu.tr/FileHandler.ashx?f=fjO4g4DmH0SFUmdMVuvnTg&r=veteriner-fakultesi-23-uluslararasi-veteriner-hekimligi-ogrencileri-bilimsel-ara-5F0074002D00560062004B0030007900700070007A0039007900700046006200610041004F003200370077003200"
+              height="200px"
+              alt=""
+            />
+            <h6 class="mt-2">
+              Veteriner Fakültesi " 23. Uluslararası Veteriner Hekimliği
+              Öğrencileri Bilimsel Araştırma Kongresi" Gerçekleştirildi
+            </h6>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div style="background-color: #87a">
+      <div class="container">
+        <footer class="py-5">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+              <a
+                href="/GazozUniversitesi/index"
+                class="nav-link px-2 text-black"
+                >Ana Sayfa &nbsp</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="/GazozUniversitesi/Ogrenci"
+                class="nav-link px-2 text-black"
+                >&nbsp Öğrenci &nbsp</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="/GazozUniversitesi/Akademik"
+                class="nav-link px-2 text-black"
+                >&nbsp Akademik &nbsp</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="/GazozUniversitesi/Universite"
+                class="nav-link px-2 text-black"
+                >&nbsp Üniversite &nbsp</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="/GazozUniversitesi/Kampuste_Hayat"
+                class="nav-link px-2 text-black"
+                >&nbsp Kampüste Hayat</a
+              >
+            </li>
+          </ul>
+          <p class="text-center text-black">© 2022</p>
+        </footer>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
